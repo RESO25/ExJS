@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="images/jsIcon.png">
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>Exercícios em JS - EX04</title>
+</head>
+<body>
+    <header>
+        <div class="home">
+            <a href="index.html"><h2>Exercícios em</h2>
+            <h1>JavaScript</h1></a>
+        </div>
+        <nav>
+            <ul class="refsExt">
+                <li class="liRef"><a class="refExt" href="ex01.html">Exercício 1</a></li>
+                <li class="liRef"><a class="refExt" href="ex02.html">Exercício 2</a></li>
+                <li class="liRef"><a class="refExt" href="ex03.html">Exercício 3</a></li>
+                <li class="liRef"><a class="refExt" href="ex04.html">Exercício 4</a></li>
+                <li class="liRef"><a class="refExt" href="ex05.html">Exercício 5</a></li>
+                <li class="liRef"><a class="refExt" href="ex06.html">Exercício 6</a></li>
+                <li class="liRef"><a class="refExt" href="ex07.html">Exercício 7</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="center">
+        <section>
+            <h1>Exercício 4</h1>
+            <p>O custo ao consumidor de um carro novo é a soma do preço da fábrica com o percentual de lucro do distribuidor e percentual dos impostos aplicados ao preço de fábrica. Receba via teclado o preço de fábrica de um veículo, o percentual de lucro do distribuidor e o percentual de impostos. Calcule e mostre:</p>
+            <p>a) o valor correspondente ao lucro do distribuidor;</p>
+            <p>b) o valor correspondente aos impostos;</p> 
+            <p>c) o preço final do veículo.</p>
+        </section>
+        <section class="inline">
+            <h2>Preço de fábrica:</h2>
+            <input type="number" id="nbrPrc" placeholder="1000" />
+            <h2>Lucro em %:</h2>
+            <input type="number" id="nbrLuc" placeholder="10" />
+            <h2>Impostos em %:</h2>
+            <input type="number" id="nbrImp" placeholder="20" /><br>
+            <input type="button" class="btnCalc" value="Calcular" onclick="ex4()" />
+        </section>
+        <section class="inline">
+            <h2 id="txtLuc">-</h2><br>
+            <h2 id="txtImp"></h2>
+            <h2 id="txtPrc"></h2>
+    </div>
+</body>
+</html>

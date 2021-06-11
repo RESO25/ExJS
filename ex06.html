@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="icon" href="images/jsIcon.png">
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <title>Exercícios em JS - EX06</title>
+    </head>
+    <body>
+        <header>
+            <div class="home">
+                <a href="index.html"><h2>Exercícios em</h2>
+                <h1>JavaScript</h1></a>
+            </div>
+            <nav>
+                <ul class="refsExt">
+                    <li class="liRef"><a class="refExt" href="ex01.html">Exercício 1</a></li>
+                    <li class="liRef"><a class="refExt" href="ex02.html">Exercício 2</a></li>
+                    <li class="liRef"><a class="refExt" href="ex03.html">Exercício 3</a></li>
+                    <li class="liRef"><a class="refExt" href="ex04.html">Exercício 4</a></li>
+                    <li class="liRef"><a class="refExt" href="ex05.html">Exercício 5</a></li>
+                    <li class="liRef"><a class="refExt" href="ex06.html">Exercício 6</a></li>
+                    <li class="liRef"><a class="refExt" href="ex07.html">Exercício 7</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="center">
+            <section>
+                <h1>Exercício 6</h1>
+                <p>Uma escola com cursos em regime semestral, realiza duas avaliações durante o semestre e calcula a média do aluno, da seguinte maneira: MEDIA = (P1 + 2P2) / 3. Fazer um programa para entrar via teclado com os valores das notas (P1 e P2) e calcular a média. Exibir a situação final do aluno (“Aprovado ou Reprovado”), sabendo que a média de aprovação é igual a cinco. </p>
+            </section>
+            <section class="inline">
+                <h2>1ª Nota:</h2>
+                <input type="number" id="nbrNota1" />
+                <h2>2ª Nota:</h2>
+                <input type="number" id="nbrNota2" /><br>
+                <input type="button" class="btnCalc" value="Calcular" onclick="ex6()" />
+            </section>
+            <section class="inline">
+                <h2 id="txtEx6">-</h2>
+            </section>
+        </div>
+    </body>
+</html>
