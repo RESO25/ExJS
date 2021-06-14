@@ -192,7 +192,7 @@ function ex6()
             
             console.log(media);
             
-            if (media>4)
+            if (media>=5)
             {
                 document.getElementById("txtEx6").innerHTML = "Aprovado!";
             }
